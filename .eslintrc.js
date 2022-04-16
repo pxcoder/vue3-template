@@ -34,10 +34,8 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'vue/multi-word-component-names': 'off',
-    'no-var': 'error',
     'prettier/prettier': 'error',
-    // 禁止出现console
-    'no-console': 'warn',
+    'no-console': 'off',
     // 禁用debugger
     'no-debugger': 'warn',
     // 禁止出现重复的 case 标签
@@ -88,8 +86,6 @@ module.exports = {
     'array-bracket-spacing': 'warn',
     // 强制在代码块中使用一致的大括号风格
     'brace-style': 'warn',
-    // 强制使用骆驼拼写法命名约定
-    camelcase: 'warn',
     // 强制使用一致的缩进
     indent: 'off',
     // 强制可嵌套的块的最大深度4
@@ -134,6 +130,7 @@ module.exports = {
     'no-extra-boolean-cast': 'warn',
     'no-case-declarations': 'warn',
     'no-async-promise-executor': 'warn',
+    camelcase: 'off',
   },
   globals: {
     defineProps: 'readonly',
