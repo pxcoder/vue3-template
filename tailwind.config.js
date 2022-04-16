@@ -3,9 +3,6 @@ module.exports = {
   important: '#app',
   theme: {
     extend: {
-      colors: {
-        primary: '#f00',
-      },
     },
   },
   plugins: [],
