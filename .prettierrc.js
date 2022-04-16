@@ -4,7 +4,7 @@ module.exports = {
   // 每个制表符占用的空格数
   tabWidth: 2,
   // 指定每行代码的最佳长度， 如果超出长度则换行
-  printWidth: 120,
+  printWidth: 100,
   // 使用单引号
   singleQuote: true,
   // 在每行末尾添加分号
